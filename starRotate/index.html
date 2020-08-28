@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      img {
+        width: 250px;
+        height: 250px;
+        border-radius:10px;
+        position: relative;
+        left:300px;
+        top: 300px;
+        background-color: purple;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+
+      }
+
+      @keyframes example {
+        0%   {transform: rotate(0deg)}
+        25%  {transform: rotate(135deg)}
+        50%  {transform: rotate(90deg)}
+        75%  {transform: rotate(135deg)}
+        100%  {transform: rotate(90deg)}
+      }
+
+    </style>
+  </head>
+  <body>
+    <img src="image.jpg">
+  </body>
+</html>
