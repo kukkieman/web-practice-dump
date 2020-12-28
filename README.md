@@ -1,3 +1,3 @@
 # web-practice-dump
 
-Just a dump repo for all my web programming (mis)adventures!
+Just a dump repository for all my web programming (mis)adventures!
